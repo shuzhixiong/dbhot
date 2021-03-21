@@ -1,0 +1,42 @@
+Kevin@DESKTOP-9AKG0A3 MINGW64 ~/Desktop
+$ node -v
+v14.16.0
+
+Kevin@DESKTOP-9AKG0A3 MINGW64 ~/Desktop
+$ npm -v
+6.14.11
+
+Kevin@DESKTOP-9AKG0A3 MINGW64 ~/Desktop
+$ git --version
+git version 2.30.2.windows.1
+
+Kevin@DESKTOP-9AKG0A3 MINGW64 ~/Desktop
+$ vue -V
+@vue/cli 4.5.11
+
+
+1 创建文件夹，创建对应的HTML文件和css文件，右键执行git init 生成.git文件
+2 生成版本管理  ①指定的文件 git init index.html   只针对index.html文件固定的版本管理
+               ② git add . 对所有的文件进行版本管理   新创建和修改的
+3  执行git status查看当前文件的状态
+
+Kevin@DESKTOP-9AKG0A3 MINGW64 ~/Desktop/代码管理Git (master)
+$ git add index.html   //只对index.html进行版本控制管理
+
+Kevin@DESKTOP-9AKG0A3 MINGW64 ~/Desktop/代码管理Git (master)
+$ git status         //查看当前的git 状态
+On branch master
+
+No commits yet
+
+Changes to be committed:     
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html    //已经生成了控制版本 进行管理的是绿色状态
+
+Untracked files:                  //未进行管理的文件是红色状态
+  (use "git add <file>..." to include in what will be committed)
+        redeme
+        rest.txt  
+
+
+
